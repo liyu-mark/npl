@@ -1,0 +1,527 @@
+Y. pestis SPE
+Y.pestis SPE
+Y. pestis EV SPE
+Y.pestis EV SPE
+immunized mice SPE
+mice SPE
+spleen ANA
+human red cells ANA
+splenic macrophages ANA
+T-cells ANA
+spleen  cells ANA
+spleen  cell ANA
+rabbit SPE
+fluids CHE
+polyacrylamide gel CHE
+plague DIS
+ecotone CHE
+India GLO
+Japan GLO
+Middle East GLO
+Saudi Arabia GLO
+Turkey GLO
+Africa GLO
+Madagascar GLO
+Oceania GLO
+Brisbane GLO
+Sydney GLO
+Europe GLO
+Lisbon GLO
+Glasgow GLO
+North America GLO
+South America GLO
+North and South GLO
+Paraguay GLO
+Honolulu GLO
+San Francisco GLO
+Corsica GLO
+Kaliningrad GLO
+carnitine CHE
+choline CHE
+C CHE
+trehalose CHE
+nitrogen CHE
+trehalose-6-phosphate CHE
+polyamine CHE
+pneumonic plague DIS
+arginine AAC
+omptin ENZ
+mild bowel disease DIS
+Children PER
+seawater PP
+UDP-N-acetylglucosamine acetyltransferase ENZ
+UDP-3-O-(3-hydroxymyristoyl)glucosamine N-acyltransferase ENZ
+Lipid A disaccharide synthase ENZ
+Tetraacyldisaccharide 4′-kinase ENZ
+Kdo transferase ENZ
+Lauroyl acyltransferase ENZ
+Palmitoleoyl acyltransferase ENZ
+Palmitoyltransferase acyltransferase ENZ
+Kdo2-lipid A phosphotransferase ENZ
+Lipid IVA 4-amino-4-deoxy-L-arabinosyltransferase ENZ
+fox SPE
+body pains DIS
+weakness DIS
+dizziness DIS
+F1 capsular antigen protein Pro
+host phagocytic cells ANA
+extracellular matrices ANA
+Yersinia outer protein PRO
+Yops PRO
+phage protein-coated nANAparticles TFB
+surface water PP
+sewage CHE
+human microbiomes PP
+human microbiomes HC
+animal microbiomes PP
+flagella ANA
+tail tubular proteins PRO
+teichoic acids CHE
+lipoteichoic acids CHE
+pili ANA
+cations CHE
+diiodotyrosine AA
+bacterial cell ANA
+Myoviridae SPE
+Siphoviridae SPE
+Acinetobacter baumanni SPE
+Enterococcus faecalisi SPE
+Campylobacter coli SPE
+Salmonella spp SPE
+Enterococcus faeciums SPE
+cattle SPE
+cows SPE
+lambs SPE
+ducks SPE
+turkeys SPE
+the elderly PER
+campylobacteriosis DIS
+Guillain–Barré syndrome DIS
+C. jejuni SPE
+Campylobacter lari SPE
+Campylobacter fetus SPE
+Campylobacter fetus venerealis SPE
+Campylobacter concisus SPE
+Campylobacter upsaliensis SPE
+H. pylori SPE
+dairy products TFB
+fish SPE
+fruits TFB
+vegetables TFB
+Enterobacteriaceae family SPE
+ELISA (enzyme-linked immunosorbent assay)-based antigen detection ADTTE
+ground beef TFB
+Shigella boydii SPE
+Shigella sonnei SPE
+Shigella infection DIS
+K. pneumoniae SPE
+oysters SPE
+raw oysters TFB
+raw vegetables TFB
+bean dip TFB
+surface-enhanced Raman scattering ADTTE
+SERS ADTTE
+C. difficile SPE
+Acinetobacter baumeii SPE
+Enterococci SPE
+urinary ANA
+musculoskeletal infections DIS
+chronic liver disease DIS
+alcoholism DIS
+malnutrition DIS
+immunosuppression CHE
+third-generation cephalosporins CHE
+first-generation cephalosporins CHE
+human immune system ANA
+pro-inflammatory cytokines CHE
+nuclear factor-κB PRO
+NF-κB PRO
+mitogen-activated protein kinase ENZ
+MAPK ENZ
+guanine nucleotide dissociation inhibitor PRO
+guanine nucleotide dissociation inhibitor PEP
+actin-regulating proteins PRO
+bubonic plague DIS
+lysozyme inhibitor Ivy PRO
+pore-forming gasdermin D PRO
+antibacterial immunity PP
+Toll-like receptor-induced cytokine production PP
+malaria DIS
+influenza DIS
+Mycobacterium tuberculosi SPE
+Dromedary Camels SPE
+Senegal GLO
+South Africa GLO
+Zimbabwe GLO
+Mozambique GLO
+Tatera SPE
+domestic rodents SPE
+Botswana GLO
+Angola GLO
+Malawi GLO
+Namibia GLO
+pectoral muscles ANA
+aminomethylcycline CHE
+cystitis DIS
+pyelonephritis DIS
+MRSA ORG
+minocycline CHE
+Acinetobacter baumanii SPE
+Stenotrophomonas maltophilia SPE
+Proteus spp. SPE
+Providencia spp. SPE
+Pseudomonas spp. SPE
+Morganella spp. SPE
+Mycobacterium abscessus SPE
+Mycobacterium fortuitum SPE
+tigecycline CHE
+Mycobacterium chelonae SPE
+tosylate salt CHE
+P-glycoprotein PRO
+P-gp PRO
+Lyme disease DIS
+rickettsial infections DIS
+C. difficile SPE
+linezolid recipients CHE
+microflora PP
+bifidobacteria PP
+bifidobacteria TFB
+B. fragilis SPE
+lactobacillus SPE
+Alcaligenes xylosoxidans SPE
+Burkholderia gladioli SPE
+Budvicia diplopodorum SPE
+Budvicia SPE
+Cylindroiulus fulviceps SPE
+Budvicia aquatica SPE
+Entamoeba histolytica SPE
+S. meliloti SPE
+lebsiella pneumoniae subsp SPE
+E. histolytica SPE
+guanidine isothiocyanate CHE
+1,5-diaminopentane CHE
+cadaverine CHE
+desferroxiamine CHE
+Streptomyces coelicolor SPE
+1,3-diaminopropane CHE
+S. coelicolor SPE
+norspermidine CHE
+N-acyl-homoserine lactone ENZ
+S-adenosyl methionine CHE
+phospholipid bilayer CHE
+flea hosts SPE
+cobalamin CHE
+butylacetylphosphonate CHE
+thiamin diphosphate ENZ
+D-glyceraldehyde 3-phosphate CHE
+Helicobacter SPE
+Helicobacter marmotae SPE
+Helicobacter canis SPE
+Helicobacter cinaedi SPE
+H. marmotae SPE
+Helicobacter equorum SPE
+H. cinaedi SPE
+Mesaconate ENZ
+Burkholderia xenovorans SPE
+C5-dicarboxylic acid itaconate CHE
+itaconyl-CoA ENZ
+polyoxidonium CHE
+methylfumarate CHE
+fumarate CHE
+toll like receptor-8 PRO
+embryonic Kidne ANA
+TLR8 PRO
+IRF7 PRO
+Polyplax spinulosa SPE
+Bartonella rochalimae SPE
+Bartonella elizabethae SPE
+B. suis SPE
+B. canis SPE
+B. ovis SPE
+B. neotomae SPE
+circular dichroism ADTTE
+Semiarid Savanna PP
+semiarid savanna PP
+Theileria parva SPE
+theileriosis DIS
+Enterobacter amnigenus SPE
+E. amnigenus SPE
+E. aerogenes SPE
+C. freundii SPE
+S. enteritidis SPE
+octanol CHE
+benzylidenebenzohydrazide CHE
+Micavibrio SPE
+B. bacteriovorus strain SPE
+Micavibrio aeruginosavorus SPE
+M. aeruginosavorus SPE
+sulfamoyladenosine CHE
+beta-1, 6-N-acetyl-D-glucosamine CHE
+beta-GlcNAc CHE
+silkworm SPE
+ethylene-diamine CHE
+di-mannose CHE
+nosocomial infection DIS
+nterleukin-2 CHE
+Shigella dysentery DIS
+autoimmunity PP
+quinoxaline CHE
+thiadiazoles CHE
+oxadiazoles CHE
+pyrazoles CHE
+thiazoles CHE
+thiazolyl 11c CHE
+p-amino benzoic acid CHE
+pyraclostrobin CHE
+Phytophthora capsici SPE
+Fusarium sulphureum SPE
+clerotinia sclerotiorum SPE
+Yersinia pestis SPE
+biphenyl CHE
+4-methoxyl CHE
+staphylopine CHE
+pseudopaline PEP
+heart infections DIS
+alpha-keto acid CHE
+nicotianamine CHE
+osteocalcin PRO
+Echinococcus granulosus SPE
+Valley fever DIS
+zoonoses increases DIS
+Aminomethyl spectinomycins CHE
+spectinomycin CHE
+aminomethyl spectinomycin CHE
+B. mallei SPE
+Shigella dysenteriae SPE
+Burkholderia cepacia SPE
+Graphene CHE
+cramps DIS
+joint pain DIS
+Paenibacillus mucilaginosus SPE
+Escherichia marmotae SPE
+F. philomiragia CHE
+Xanthan CHE
+F. novicida SPE
+outpatient PER
+4-oxoquinolizine CHE
+coriander SPE
+Coriandrum sativum SPE
+methane CHE
+Microtus paradoxus SPE
+Apodemus witherbyi SPE
+Microtus irani SPE
+Microtus socialis SPE
+Crocidura suaveolens SPE
+C. leucodon SPE
+Lepus europaeus SPE
+Lepus tolai SPE
+Lepus sp SPE
+Mus musculus domesticus SPE
+Chionomys nivalis SPE
+L. europaeus SPE
+C. nivalis SPE
+phlebotomine SPE
+aminomethylcycline CHE
+pyelonephritis DIS
+catecholamine CHE
+Acinetobacter SPE
+Acinetobacter johnsonii SPE
+Acinetobacter soli SPE
+Acinetobacter pittii SPE
+Acinetobacter guillouiae SPE
+alpine chipmunk SPE
+Tamias alpinus SPE
+lodgepole chipmunk SPE
+T. alpinus SPE
+Filoviridae disease DIS
+octadecylamine CHE
+graphene oxide CHE
+hyperpyrexia DIS
+adenopathy DIS
+Psammomys obesus SPE
+zoonosis DIS
+Amblyomma ovale SPE
+Amblyomma sculptum SPE
+Lymphoma DIS
+sulfone CHE
+Dapsone CHE
+sulfa CHE
+Giardia SPE
+Salmonella Paratyphi SPE
+foodborne diseases DIS
+foodborne infections DIS
+diglucosamine CHE
+Treponema pallidum pallidum SPE
+hypertension DIS
+Dipylidium caninum SPE
+D. caninum SPE
+poliovirus SPE
+gorilla SPE
+jasmonic acid CHE
+abscisic acid CHE
+Theileria SPE
+Taenia SPE
+Taenia laticollis SPE
+Hepatozoon ayorgbor SPE
+cortisol CHE
+Rickettsiaceae SPE
+Trypanosoma SPE
+Trypanosoma sp SPE
+Bartonella gabonensis SPE
+Haemophilus ducreyi SPE
+Macellibacteroides fermentans SPE
+Arcobacter SPE
+Arcobacter butzleri SPE
+Bacteroides graminisolvens SPE
+Human mastadenovirus C SPE
+sulfur CHE
+tellurium CHE
+H37Rv SPE
+deadly zoonosis DIS
+Rhipicephalus sanguineus sensu lato SPE
+YhcB PRO
+zoonotic infectious DIS
+Salmonella phage S16 SPE
+Gp38 PRO
+protein tyrosine phosphatase 1B PRO
+protein tyrosine phosphatase 1B ENZ
+Rickettsia asembonensis SPE
+rickettsial DIS
+coronavirus disease-19 DIS
+fibrosis DIS
+multiple carcinomas DIS
+Formyl peptide receptor 1 PRO
+2019 coronavirus disease DIS
+influenza viruses SPE
+flea-borne infectious disease DIS
+F. tularensis subsp. holarctica SPE
+higher plants SPE
+mosses SPE
+urban pneumonic DIS
+colonic tumorigenesis DIS
+chabaudi infection DIS
+severe acute respiratory syndrome coronavirus 2 SPE
+A. pittii SPE
+Acinetobacter nosocomialis SPE
+B. theileri SPE
+treponemal diseases DIS
+septic infection of Treponema pallidum pertenue DIS
+Anthraquinone CHE
+AQ CHE
+trachomatis infection DIS
+C. trachomatis SPE
+Chlamydia infection DIS
+Acinetobacter ursingii SPE
+Anaplasma sp SPE
+Alzheimer\'s Disease DIS
+Bartonella washoensis SPE
+Bartonella alsatica SPE
+Bartonella bacteremia DIS
+N. albigula SPE
+Sylvilagus audubonii SPE
+cross-border disease DIS
+autoinflammatory disease Familial Mediterranean Fever DIS
+increases inflammation DIS
+tuberculosis granuloma proteins PRO
+pseudotuberculosis granuloma proteins PRO
+M. avium paratuberculosis SPE
+necrotizing granuloma DIS
+pseudotuberculosis granuloma DIS
+multiple sclerosis DIS
+thrombotic DIS
+tranexamic acid CHE
+Pediculus humanus SPE
+P. humanus SPE
+Dromedary SPE
+Camelus dromedarius SPE
+Middle East respiratory syndrome DIS
+sulfonamidobenzamide CHE
+haloid CHE
+malic diamide CHE
+acetylcadaverine CHE
+acetylputrescine CHE
+doxorubicin CHE
+acetylpolyamines ENZ
+flavin CHE
+Haemaphysalis elliptica SPE
+Rickettsia conorii SPE
+Rhipicephalus distinctus SPE
+montmorillonite CHE
+Cryptosporidium andersoni SPE
+Cryptosporidium bovis SPE
+Cryptosporidium ryanae SPE
+Giardia duodenalis SPE
+G. duodenalis SPE
+trifluoroacetic acid CHE
+4,5,6,7-tetrachlorobenzimidazole CHE
+imidazolium salts CHE
+phosphatidylglycerol CHE
+pentasaccharide CHE
+coagulopathies DIS
+Streptococcus equi SPE
+Streptococcus equi subspecies equi SPE
+S. equi SPE
+S. zooepidemicus SPE
+Streptococcus equi subspecies zooepidemicus SPE
+S. pyogenes SPE
+3\'-5\'-cyclic diguanylic acid CHE
+amino sugars CHE
+N-acetylneuraminate lyase ENZ
+Verrucomicrobia SPE
+Photorhabdus asymbiotica SPE
+Xenorhabdus luminescens SPE
+glucose-phosphate CHE
+gamma-Zein PRO
+Medicago sativa SPE
+Nicotiana tabacum SPE
+Induratia crispans SPE
+pineapple SPE
+propanoic acid CHE
+2-methyl-, methyl ester CHE
+2-methyl CHE
+1-butanol CHE
+3-methyl CHE
+3-methyl-, acetate CHE
+2-methyl-, 2-methylbutyl ester CHE
+naphthalene CHE
+azulene CHE
+Muscodor SPE
+M. crispans SPE
+Pythium ultimum SPE
+Phytophthora cinnamomi SPE
+Xanthomonas axonopodis pv. citri SPE
+Polyplax reclinata SPE
+Hypsophthalm SPE
+Rhipicephalus SPE
+P. reclinata SPE
+white-toothed shrews SPE
+Beamys hindei SPE
+Lemniscomys striatus SPE
+Graphiurus microtis SPE
+savannah SPE
+oligoglucosamines CHE
+beta-(1--&gt;6)-Poly-N-acetyl-d-glucosamine CHE
+beta-(1--&gt;6)-d-glucosamine CHE
+coli peritonitis DIS
+oligoglucosamine CHE
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
