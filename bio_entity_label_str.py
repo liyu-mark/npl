@@ -1,4 +1,6 @@
-import re
+import string
+punc_list = list(string.punctuation)
+punc_list.append(" ")
 
 def get_list_by_read_file(file_path):
     with open(file_path,'r',encoding='utf-8') as f:
@@ -20,7 +22,7 @@ def get_word_dict_list_file(file_path,):
                     index = index-1
             if index != -1:
                 #print(line[0:index])
-                txt_map[line[0:index]] = line[index:len(line)-1]
+                txt_map[line[0:index].strip()] = line[index:len(line)-1]
         return txt_map
 
 def get_key_by_value(txt_map,value):
@@ -38,16 +40,38 @@ def output_file(file_path,word_list,tag_list):
         output_f.write('\n')
 
 def get_mark_index(str,search):
+    search = search.strip()
     begin = 0
     end = len(str)
     multi_index = []
-    #search = " "+search+" "
     while begin < end and begin != -1:
         begin = str.find(search,begin,end)
         if begin != -1:
             multi_index.append(begin)
             begin = len(search) + begin
     return multi_index
+
+#匹配规则
+def judge_word_is_right(main_str,child_str_index):
+    main_str = main_str.replace("\n",'')
+    if child_str_index + 1 < len(main_str) :
+        return main_str[child_str_index] == ' ' or main_str[child_str_index] == ','
+    elif child_str_index + 1 == len(main_str) :
+        return main_str[child_str_index] == '.'
+
+def splie_I_O_label_str(I_label_str):
+    item = []
+    start_index = 0
+    for index in range(len(I_label_str)):
+        if I_label_str[index] in punc_list:
+            if start_index!=index:
+                item.append(I_label_str[start_index:index].strip())
+            if I_label_str[index]!=' ':
+                item.append(I_label_str[index].strip())
+            start_index=index+1
+    if start_index < len(I_label_str)-1:
+        item.append(I_label_str[start_index:index+1].strip())
+    return item
 
 dev_unlabel_list = get_list_by_read_file('./data/dev_unlabel.txt')
 
@@ -64,7 +88,7 @@ with open('./data/dev_unlabel.txt','r',encoding='utf-8') as f:
                 #会覆盖下标 value匹配最长字符串
                 index_map[sign] = key+"---"+word_dict_map[key]
             #输出每一行
-
+        print(index_map)
         entity_marked = {}
         for key_1,value_1 in index_map.items():
             len_entity = len(value_1.split("---")[0])
@@ -79,16 +103,27 @@ with open('./data/dev_unlabel.txt','r',encoding='utf-8') as f:
             if index in entity_marked.keys():
                 label = index_map[index].split("---")[1]
                 marked_end = int(entity_marked[index])
-                marked_word_split = line_1[index:marked_end].strip().split(" ")
-                if len(marked_word_split) == 1:
-                    print(line_1[index:marked_end]," B-"+label)
-                else:
-                    print(line_1[index:marked_end]," I-"+label)
-                index = marked_end
-                start = marked_end
+
+                if judge_word_is_right(line_1, marked_end):
+
+                    label_word = line_1[index:marked_end]
+                    marked_word_split = label_word.strip().split(" ")
+                    if len(marked_word_split) == 1:
+                        print(label_word," B-"+label)
+                    else:
+                        items = splie_I_O_label_str(label_word)
+                        for index in range(len(items)):
+                            if index == 0 :
+                                print(items[index]," B-"+label)
+                            else :
+                                print(items[index]," I-"+label)
+                    index = marked_end
+                    start = marked_end
             else:
                 if current_char == ' ' or current_char == '\n':
-                    print(line_1[start:index].strip()," O")
+                    items = splie_I_O_label_str(line_1[start:index].strip())
+                    for item in items :
+                        print(item," O")
                     start = index
             index = index+1
 
