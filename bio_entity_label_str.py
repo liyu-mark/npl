@@ -53,40 +53,42 @@ dev_unlabel_list = get_list_by_read_file('./data/dev_unlabel.txt')
 
 word_dict_map = get_word_dict_list_file('./data/word_dict.txt')
 
-for unlabel in dev_unlabel_list:
-    index_map = {}
-    for key in list(word_dict_map.keys()) :
-        #获取搜索到的下标
-        sign_list = get_mark_index(unlabel,key.strip())
-        for sign in sign_list:
-            #会覆盖下标 value匹配最长字符串
-            index_map[sign] = key+"---"+word_dict_map[key]
-        #输出每一行
+with open('./data/dev_unlabel.txt','r',encoding='utf-8') as f:
+    txt_map = {}
+    for unlabel in f.readlines():
+        index_map = {}
+        for key in list(word_dict_map.keys()) :
+            #获取搜索到的下标
+            sign_list = get_mark_index(unlabel,key.strip())
+            for sign in sign_list:
+                #会覆盖下标 value匹配最长字符串
+                index_map[sign] = key+"---"+word_dict_map[key]
+            #输出每一行
 
-    entity_marked = {}
-    for key_1,value_1 in index_map.items():
-        len_entity = len(value_1.split("---")[0])
-        entity_marked[key_1] = key_1+len_entity
+        entity_marked = {}
+        for key_1,value_1 in index_map.items():
+            len_entity = len(value_1.split("---")[0])
+            entity_marked[key_1] = key_1+len_entity
 
-    line_1 = unlabel
+        line_1 = unlabel
 
-    start = 0
-    index = 0
-    while index < len(line_1):
-        current_char = line_1[index]
-        if index in entity_marked.keys():
-            label = index_map[index].split("---")[1]
-            marked_end = int(entity_marked[index])
-            marked_word_split = line_1[index:marked_end].strip().split(" ")
-            if len(marked_word_split) == 1:
-                print(line_1[index:marked_end]," B-"+label)
+        start = 0
+        index = 0
+        while index < len(line_1):
+            current_char = line_1[index]
+            if index in entity_marked.keys():
+                label = index_map[index].split("---")[1]
+                marked_end = int(entity_marked[index])
+                marked_word_split = line_1[index:marked_end].strip().split(" ")
+                if len(marked_word_split) == 1:
+                    print(line_1[index:marked_end]," B-"+label)
+                else:
+                    print(line_1[index:marked_end]," I-"+label)
+                index = marked_end
+                start = marked_end
             else:
-                print(line_1[index:marked_end]," I-"+label)
-            index = marked_end
-            start = marked_end
-        else:
-            if current_char == ' ' or index == len(line_1)-1:
-                print(line_1[start:index].strip()," O")
-                start = index
-        index = index+1
+                if current_char == ' ' or current_char == '\n':
+                    print(line_1[start:index].strip()," O")
+                    start = index
+            index = index+1
 
